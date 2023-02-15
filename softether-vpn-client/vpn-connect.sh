@@ -1,5 +1,5 @@
 #!/bin/bash
-cd /home/tvabuser/GitClone/TvabSE-connect/softether-vpn-client/
+cd /home/tvabuser/vpnclient/
 
 # Load the configurations file
 source vpn_config
@@ -39,3 +39,4 @@ sudo dhclient vpn_$NIC_NAME
 
 # Check the VPN Account connection status
 $CLIENT_DIR/vpncmd /CLIENT localhost /CMD AccountList
+
